@@ -1,0 +1,65 @@
+.top {
+  padding: 8px 0;
+  background-color: #0a0043;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+}
+
+.topInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.contactsItem {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.contactsLink {
+  display: flex;
+  align-items: center;
+  & > svg {
+    margin-right: 12px;
+  }
+}
+
+.topRight {
+  display: flex;
+  align-items: center;
+}
+
+.like {
+  margin-right: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: #008dfe;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.lang {
+  cursor: pointer;
+}

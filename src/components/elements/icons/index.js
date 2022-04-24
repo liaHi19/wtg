@@ -1,0 +1,13 @@
+export { default as InstagramIcon } from "./InstagramIcon";
+export { default as LikeIcon } from "./LikeIcon";
+export { default as LinkedInIcon } from "./LinkedInIcon";
+export { default as LocationIcon } from "./LocationIcon";
+export { default as LogoIcon } from "./LogoIcon";
+export { default as MailIcon } from "./MailIcon";
+export { default as MessangerIcon } from "./MessangerIcon";
+export { default as PhoneIcon } from "./PhoneIcon";
+export { default as TelegramIcon } from "./TelegramIcon";
+export { default as ViberIcon } from "./ViberIcon";
+export { default as WhatsAppIcon } from "./WhatsAppIcon";
+export { default as YoutubeIcon } from "./YoutubeIcon";
+export { default as UKIcon } from "./UKIcon";
