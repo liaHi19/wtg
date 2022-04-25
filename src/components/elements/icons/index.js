@@ -17,3 +17,8 @@ export { default as StarFullIcon } from "./StarFullIcon";
 export { default as StarEmptyIcon } from "./StarEmptyIcon";
 export { default as ArrowTopIcon } from "./ArrowTopIcon";
 export { default as LogoMarkerIcon } from "./LogoMarkerIcon";
+export { default as PlaneIcon1 } from "./PlaneIcon1";
+export { default as PlaneIcon2 } from "./PlaneIcon2";
+export { default as PlaneIcon3 } from "./PlaneIcon3";
+export { default as PlaneIcon4 } from "./PlaneIcon4";
+export { default as PlaneIcon5 } from "./PlaneIcon5";

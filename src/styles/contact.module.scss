@@ -1,5 +1,6 @@
 .contact {
   padding: 70px 0 130px;
+  position: relative;
 }
 
 .text {
@@ -17,4 +18,38 @@
   border-radius: 10px;
   background-color: #fff;
   margin-bottom: 80px;
+}
+
+.plane1,
+.plane2,
+.plane3,
+.plane4,
+.plane5 {
+  position: absolute;
+  z-index: -1;
+}
+
+.plane1 {
+  top: 60px;
+  left: 80px;
+}
+
+.plane2 {
+  top: 436px;
+  left: 0;
+}
+
+.plane3 {
+  bottom: 70px;
+  left: 0;
+}
+
+.plane4 {
+  right: 25px;
+  bottom: 277px;
+}
+
+.plane5 {
+  top: 155px;
+  right: 0;
 }
