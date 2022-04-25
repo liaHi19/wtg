@@ -1,6 +1,7 @@
 import React from "react";
 
 import ContactForm from "./ContactForm";
+import ContactInfo from "./ContactInfo";
 import Map from "./Map";
 import Container from "./elements/Container";
 
@@ -18,6 +19,7 @@ const Contact = () => {
           <Map />
           <ContactForm />
         </div>
+        <ContactInfo />
       </Container>
     </article>
   );

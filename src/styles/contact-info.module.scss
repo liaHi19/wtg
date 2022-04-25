@@ -1,0 +1,48 @@
+@import "./vars.scss";
+.info {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110px;
+    height: 0.4px;
+    background-color: var(--color-accent);
+  }
+  &::before {
+    top: 0;
+  }
+  &::after {
+    bottom: 0;
+  }
+}
+
+.item {
+  max-width: 368px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  & > svg {
+    color: var(--color-accent);
+    margin-right: 15px;
+  }
+}
