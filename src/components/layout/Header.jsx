@@ -1,9 +1,8 @@
 import React from "react";
 
-import HeaderTop from "./HeaderTop";
+import { HeaderTop, HeaderBottom } from "./";
 
 import style from "../../styles/header.module.scss";
-import HeaderBottom from "./HeaderBottom";
 
 const Header = () => {
   return (

@@ -1,11 +1,9 @@
 import React from "react";
 
-import ContactForm from "./ContactForm";
-import ContactInfo from "./ContactInfo";
-import Map from "./Map";
-import Container from "./elements/Container";
+import { ContactForm, ContactInfo, Map, Social } from "./";
+import { Container } from "../elements/ui";
 
-import style from "../styles/contact.module.scss";
+import style from "../../styles/contact.module.scss";
 
 const Contact = () => {
   return (
@@ -20,6 +18,7 @@ const Contact = () => {
           <ContactForm />
         </div>
         <ContactInfo />
+        <Social />
       </Container>
     </article>
   );

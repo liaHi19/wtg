@@ -1,9 +1,9 @@
 import React from "react";
 
-import Container from "./elements/Container";
-import MyButton from "./elements/MyButton";
+import Container from "../elements/ui/Container";
+import MyButton from "../elements/ui/MyButton";
 
-import style from "../styles/top.module.scss";
+import style from "../../styles/top.module.scss";
 
 const Top = () => {
   return (

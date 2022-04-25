@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import NavMenu from "./NavMenu";
-import Container from "../elements/Container";
-
+import { NavMenu } from "./";
+import { Container } from "../elements/ui";
 import { LogoIcon } from "../elements/icons";
+
 import style from "../../styles/headerBottom.module.scss";
 
 const HeaderBottom = () => {

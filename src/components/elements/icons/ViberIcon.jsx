@@ -1,8 +1,9 @@
 import React from "react";
 
-const ViberIcon = () => {
+const ViberIcon = (props) => {
   return (
     <svg
+      {...props}
       width="29"
       height="30"
       viewBox="0 0 29 30"

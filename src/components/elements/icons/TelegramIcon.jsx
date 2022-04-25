@@ -1,8 +1,9 @@
 import React from "react";
 
-const TelegramIcon = () => {
+const TelegramIcon = (props) => {
   return (
     <svg
+      {...props}
       width="30"
       height="26"
       viewBox="0 0 30 26"

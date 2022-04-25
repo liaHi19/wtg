@@ -1,8 +1,9 @@
 import React from "react";
 
-const MessangerIcon = () => {
+const MessangerIcon = (props) => {
   return (
     <svg
+      {...props}
       width="30"
       height="30"
       viewBox="0 0 30 30"

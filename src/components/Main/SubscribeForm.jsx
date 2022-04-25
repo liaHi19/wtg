@@ -2,12 +2,11 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 
-import { schemaContact } from "../helpers/schemaContact";
+import { MyButton, MyInput } from "../elements/ui";
 
-import MyButton from "./elements/MyButton";
-import MyInput from "./elements/MyInput";
+import { schemaContact } from "../../helpers/schemaContact";
 
-import style from "../styles/subscribe.module.scss";
+import style from "../../styles/subscribe.module.scss";
 
 const SubscribeForm = () => {
   const {

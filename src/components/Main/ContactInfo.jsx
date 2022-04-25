@@ -1,8 +1,8 @@
 import React from "react";
 
-import { PhoneIcon, MailIcon } from "./elements/icons";
+import { PhoneIcon, MailIcon } from "../elements/icons";
 
-import style from "../styles/contact-info.module.scss";
+import style from "../../styles/contact-info.module.scss";
 
 const ContactInfo = () => {
   return (

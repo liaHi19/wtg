@@ -1,8 +1,6 @@
 import React from "react";
 
-import style from "../../styles/headerTop.module.scss";
-import Container from "../elements/Container";
-
+import { Container } from "../elements/ui";
 import {
   MailIcon,
   PhoneIcon,
@@ -10,6 +8,8 @@ import {
   LikeIcon,
   UKIcon,
 } from "../elements/icons";
+
+import style from "../../styles/headerTop.module.scss";
 
 const HeaderTop = () => {
   return (

@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import SubscribeForm from "../SubscribeForm";
+import { SubscribeForm } from "../Main";
+import { StarRating } from "../elements/ui";
 import {
   LogoIcon,
   MobileIcon,
@@ -17,7 +18,6 @@ import {
 import { types } from "../../data/types";
 
 import style from "../../styles/footer.module.scss";
-import StarRating from "../elements/StarRating";
 
 const Footer = () => {
   return (

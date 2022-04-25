@@ -3,13 +3,11 @@ import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 
-import MyInput from "./elements/MyInput";
-import MyTextarea from "./elements/MyTextarea";
-import MyButton from "./elements/MyButton";
+import { MyInput, MyButton, MyTextarea } from "../elements/ui";
 
-import { schemaContact } from "../helpers/schemaContact";
+import { schemaContact } from "../../helpers/schemaContact";
 
-import style from "../styles/contact-form.module.scss";
+import style from "../../styles/contact-form.module.scss";
 
 const ContactForm = () => {
   const {

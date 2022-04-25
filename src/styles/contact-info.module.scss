@@ -4,6 +4,7 @@
   justify-content: space-around;
   padding: 50px 0;
   position: relative;
+  margin-bottom: 50px;
 
   &::before,
   &::after {
@@ -43,6 +44,8 @@
   text-align: center;
   & > svg {
     color: var(--color-accent);
+    width: 18px;
+    height: 18px;
     margin-right: 15px;
   }
 }
