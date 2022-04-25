@@ -1,0 +1,39 @@
+.form {
+  width: 292px;
+}
+.formContainer {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  padding: 8px 18px;
+  border: none;
+  outline-width: 0px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  border-radius: 5px 0 0 5px;
+  &::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #6a6a6a;
+  }
+}
+
+.button {
+  padding: 7px 10px 9px;
+  background: linear-gradient(90deg, #0052d4 0%, #4364f7 50%, #6fb1fc 100%);
+  border-radius: 0px 5px 5px 0px;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background: linear-gradient(-90deg, #0052d4 0%, #4364f7 50%, #6fb1fc 100%);
+    color: #000;
+  }
+}

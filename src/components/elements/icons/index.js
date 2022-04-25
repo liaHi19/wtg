@@ -11,3 +11,8 @@ export { default as ViberIcon } from "./ViberIcon";
 export { default as WhatsAppIcon } from "./WhatsAppIcon";
 export { default as YoutubeIcon } from "./YoutubeIcon";
 export { default as UKIcon } from "./UKIcon";
+export { default as MobileIcon } from "./MobileIcon";
+export { default as FacebookIcon } from "./FacebookIcon";
+export { default as StarFullIcon } from "./StarFullIcon";
+export { default as StarEmptyIcon } from "./StarEmptyIcon";
+export { default as ArrowTopIcon } from "./ArrowTopIcon";

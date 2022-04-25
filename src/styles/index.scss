@@ -8,11 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
 body,
 h1,
 h2,
@@ -54,6 +49,10 @@ a {
   color: inherit;
 }
 
+button {
+  color: inherit;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -63,8 +62,39 @@ body {
   color: #818181;
 }
 
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  flex: 1;
+}
+
 .container {
   max-width: 1290px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.error {
+  display: block;
+  margin-top: 5px;
+  color: #ff0000;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.react-simple-star-rating {
+  .empty-icons,
+  .filled-icons {
+    display: inline-block;
+    & > svg {
+      &:not(:last-child) {
+        margin-right: 5px;
+      }
+    }
+  }
 }
