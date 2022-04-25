@@ -16,3 +16,4 @@ export { default as FacebookIcon } from "./FacebookIcon";
 export { default as StarFullIcon } from "./StarFullIcon";
 export { default as StarEmptyIcon } from "./StarEmptyIcon";
 export { default as ArrowTopIcon } from "./ArrowTopIcon";
+export { default as LogoMarkerIcon } from "./LogoMarkerIcon";

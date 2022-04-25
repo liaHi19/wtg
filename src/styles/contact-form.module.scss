@@ -1,0 +1,98 @@
+@import "./vars.scss";
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 100px 35px;
+  background-color: #fff;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.form {
+  width: 320px;
+}
+
+.input,
+.textarea {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  align-self: start;
+  width: 100%;
+  padding: 8px 20px 9px;
+  border: 1px solid #f8f8f8;
+  outline-width: 0px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px rgba(136, 136, 136, 0.1);
+
+  &::placeholder {
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
+  }
+
+  &:focus {
+    border: 1px solid var(--color-accent);
+  }
+}
+
+.space {
+  margin-bottom: 30px;
+}
+
+.spacing {
+  margin-bottom: 40px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.textarea {
+  resize: none;
+  height: 102px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 10px;
+  width: 140px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #0052d4 0%, #4364f7 50%, #6fb1fc 100%);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background: linear-gradient(-90deg, #0052d4 0%, #4364f7 50%, #6fb1fc 100%);
+    color: #000;
+  }
+}
+
+.privacy {
+  font-size: 12px;
+  line-height: 15px;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: var(--color-accent);
+  }
+}
