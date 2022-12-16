@@ -2,9 +2,9 @@ import React from "react";
 
 const MyTextarea = ({ register, error, ...props }) => {
   return (
-    <div>
+    <div style={{ height: "118px" }}>
       <textarea {...register} {...props} />
-      {error && <div className="error">{error}</div>}
+      {error && <p className="error">{error}</p>}
     </div>
   );
 };

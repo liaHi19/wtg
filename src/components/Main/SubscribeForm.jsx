@@ -33,10 +33,12 @@ const SubscribeForm = () => {
           name="email"
           placeholder="Your email"
           register={register("email")}
+          error={errors?.email?.message}
         />
-        <MyButton className={style.button}>Subscribe</MyButton>
+        <div style={{ height: "55px" }}>
+          <MyButton className={style.button}>Subscribe</MyButton>
+        </div>
       </div>
-      {errors?.email && <div className="error">{errors?.email?.message}</div>}
     </form>
   );
 };

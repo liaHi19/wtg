@@ -2,9 +2,9 @@ import React from "react";
 
 const MyInput = ({ register, error, ...props }) => {
   return (
-    <div>
+    <div style={{ height: "55px" }}>
       <input {...register} {...props} />
-      {error && <div className="error">{error}</div>}
+      {error && <p className="error">{error}</p>}
     </div>
   );
 };
